@@ -10,27 +10,27 @@ app.get('/', (req, res)=>{
 });
 
 
-app.get('/add', (req, res)=>{
-    res.sendFile(path.join(__dirname +'/Public/add.html'));
+app.get('/Añadir', (req, res)=>{
+    res.sendFile(path.join(__dirname +'/Public/Añadir.html'));
 });
 
-app.get('/cap.js', (req, res)=>{
-    res.sendFile(path.join(__dirname +'/Js/cap.js'));
+app.get('/Datos.js', (req, res)=>{
+    res.sendFile(path.join(__dirname +'/Js/Datos.js'));
 });
 
-app.get('/search.js', (req, res)=>{
-    res.sendFile(path.join(__dirname +'/Js/search.js'));
+app.get('/Buscar.js', (req, res)=>{
+    res.sendFile(path.join(__dirname +'/Js/Buscar.js'));
 });
 
-app.get('/pull.js', (req, res)=>{
-    res.sendFile(path.join(__dirname +'/Js/pull.js'));
+app.get('/Subir.js', (req, res)=>{
+    res.sendFile(path.join(__dirname +'/Js/Subir.js'));
 });
 
-app.get('/fullList', (req, res)=>{
-    res.sendFile(path.join(__dirname +'/Public/fullList.html'));
+app.get('/Lista', (req, res)=>{
+    res.sendFile(path.join(__dirname +'/Public/Lista.html'));
 });
-app.get('/function.js', (req, res)=>{
-    res.sendFile(path.join(__dirname +'/Js/function.js'));
+app.get('/Funciones.js', (req, res)=>{
+    res.sendFile(path.join(__dirname +'/Js/Funciones.js'));
 
 })
 

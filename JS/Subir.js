@@ -1,4 +1,4 @@
-function pull(){
+function Subir(){
     fetch('http://www.raydelto.org/agenda.php')
     .then(response => response.json())
     .then(res=> {

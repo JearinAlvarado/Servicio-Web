@@ -1,4 +1,4 @@
-function cap(){
+function Datos(){
     var name=document.getElementById('nombre').value;
     var lastname = document.getElementById('apellido').value;
     var phone = document.getElementById('numero').value;
@@ -11,7 +11,7 @@ function cap(){
         ).then( res => res.json()).then(
         (res) => 
     {
-    alert('Los datos se han agregado correctamente.')
+    alert('Los datos se han guardado exitosamente.')
     }
 );
     
