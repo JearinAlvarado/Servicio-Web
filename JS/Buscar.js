@@ -2,8 +2,8 @@ const input = document.getElementById('id');
     const log = document.getElementById('input');
     
     const table = document.querySelector('#userList tbody');
-    input.addEventListener('change',pull);
-    function pull(e){
+    input.addEventListener('change',Subir);
+    function Subir(e){
         fetch('http://www.raydelto.org/agenda.php')
         .then(response => response.json())
         .then(res=> {
