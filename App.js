@@ -10,8 +10,8 @@ app.get('/', (req, res)=>{
 });
 
 
-app.get('/Añadir', (req, res)=>{
-    res.sendFile(path.join(__dirname +'/Public/Añadir.html'));
+app.get('/Agregar', (req, res)=>{
+    res.sendFile(path.join(__dirname +'/Public/Agregar.html'));
 });
 
 app.get('/Datos.js', (req, res)=>{
