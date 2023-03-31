@@ -11,7 +11,7 @@ function cap(){
         ).then( res => res.json()).then(
         (res) => 
     {
-    alert('Los datos se han guardado exitosamente.')
+    alert('Los datos se han agregado correctamente.')
     }
 );
     
