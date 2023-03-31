@@ -1,4 +1,4 @@
-function cap(){
+function Datos(){
     var name=document.getElementById('nombre').value;
     var lastname = document.getElementById('apellido').value;
     var phone = document.getElementById('numero').value;
