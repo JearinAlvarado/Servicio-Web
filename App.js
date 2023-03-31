@@ -14,8 +14,8 @@ app.get('/Agregar', (req, res)=>{
     res.sendFile(path.join(__dirname +'/Public/Agregar.html'));
 });
 
-app.get('/Datos.js', (req, res)=>{
-    res.sendFile(path.join(__dirname +'/Js/Datos.js'));
+app.get('/cap.js', (req, res)=>{
+    res.sendFile(path.join(__dirname +'/Js/cap.js'));
 });
 
 app.get('/Buscar.js', (req, res)=>{
